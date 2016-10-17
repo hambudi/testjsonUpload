@@ -1,0 +1,75 @@
+﻿{
+  "language": {
+    "divider_title": "divider_title_override_EN-US"
+  },
+  "cp": {
+    "LinkedInExchange": "LinkedInExchange_override_EN-US",
+    "FacebookExchange": "FacebookExchange_override_EN-US"
+  },
+  "sa_fields": {
+    "logonIdentifier": [
+      "logonIdentifier_override",
+      "logonIdentifier_OverrideUHT"
+    ],
+    "password": [
+      "password_override",
+      "logonIdentifier_OverrideUHT"
+    ],
+    "UserId": [
+      "UserId_override",
+      "UserId_OverrideUHT"
+    ],
+    "newPassword": [
+      "newPassword_override",
+      "newPassword_OverrideUHT"
+    ],
+    "reenterPassword": [
+      "reenterPassword_override",
+      "reenterPassword_OverrideUHT"
+    ],
+    "email": [
+      "email_override",
+      "email_OverrideUHT"
+    ],
+    "surname": [
+      "surname_override",
+      "surname_OverrideUHT"
+    ],
+    "streetAddress": [
+      "streetAddress_override",
+      "streetAddress_OverrideUHT"
+    ],
+    "state": [
+      "state_override",
+      "state_OverrideUHT"
+    ],
+    "postalCode": [
+      "postalCode_override",
+      "postalCode_OverrideUHT"
+    ],
+    "jobTitle": [
+      "jobTitle_override",
+      "jobTitle_OverrideUHT"
+    ],
+    "givenName": [
+      "givenName_override",
+      "givenName_OverrideUHT"
+    ],
+    "extension_ExtensionAttribute": [
+      "extension_ExtensionAttribute_override",
+      "extension_ExtensionAttribute_OverrideUHT"
+    ],
+    "displayName": [
+      "displayName_override",
+      "displayName_OverrideUHT"
+    ],
+    "country": [
+      "country_override",
+      "country_OverrideUHT"
+    ],
+    "city": [
+      "city_override",
+      "city_OverrideUHT"
+    ]
+  }
+}
