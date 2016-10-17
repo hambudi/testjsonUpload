@@ -1,0 +1,127 @@
+﻿{
+  "language": {
+    "email_pattern": "^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$",
+    "logonIdentifier_email": "logonIdentifier_email_default_en_",
+    "requiredField_email": "requiredField_email_default_en_",
+    "logonIdentifier_username": "logonIdentifier_username_default_en_",
+    "createaccount_link": "createaccount_link_default_en_",
+    "requiredField_username": "requiredField_username_default_en_",
+    "createaccount_intro": "createaccount_intro_default_en_",
+    "forgotpassword_link": "forgotpassword_link_default_en_",
+    "divider_title": "divider_title_default_en_",
+    "cancel_message": "cancel_message_default_en_",
+    "button_signin": "button_signin_default_en_",
+    "social_intro": "social_intro_default_en_",
+    "requiredField_password": "requiredField_password_default_en_",
+    "invalid_password": "invalid_password_default_en_",
+    "local_intro_username": "local_intro_username_default_en_",
+    "local_intro_email": "local_intro_email_default_en_",
+    "invalid_email": "invalid_email_default_en_",
+    "unknown_error": "unknown_error_default_en_",
+    "ver_but_default": "ver_but_default_default_en_",
+    "preloader_alt": "preloader_alt_default_en_",
+    "ver_but_send": "ver_but_send_default_en_",
+    "alert_yes": "alert_yes_default_en_",
+    "error_fieldIncorrect": "error_fieldIncorrect_default_en_",
+    "year": "year_default_en_",
+    "verifying_blurb": "verifying_blurb_default_en_",
+    "button_cancel": "button_cancel_default_en_",
+    "ver_fail_no_retry": "ver_fail_no_retry_default_en_",
+    "month": "month_default_en_",
+    "months": "months_default_en_",
+    "ver_success_msg": "ver_success_msg_default_en_",
+    "ver_fail_server": "ver_fail_server_default_en_",
+    "error_requiredFieldMissing": "error_requiredFieldMissing_default_en_",
+    "initial_intro": "initial_intro_default_en_",
+    "ver_but_resend": "ver_but_resend_default_en_",
+    "button_continue": "button_continue_default_en_",
+    "error_passwordEntryMismatch": "error_passwordEntryMismatch_default_en_",
+    "ver_incorrect_format": "ver_incorrect_format_default_en_",
+    "ver_but_edit": "ver_but_edit_default_en_",
+    "alert_no": "alert_no_default_en_",
+    "ver_but_verify": "ver_but_verify_default_en_",
+    "ver_info_msg": "ver_info_msg_default_en_",
+    "day": "day_default_en_",
+    "ver_fail_throttled": "ver_fail_throttled_default_en_",
+    "helplink_text": "helplink_text_default_en_",
+    "ver_fail_retry": "ver_fail_retry_default_en_",
+    "alert_title": "alert_title_default_en_",
+    "required_field": "required_field_default_en_",
+    "alert_message": "alert_message_default_en_",
+    "ver_intro_msg": "ver_intro_msg_default_en_",
+    "ver_input": "ver_input_default_en_"
+  },
+  "cp": {
+    "AmazonExchange": "AmazonExchange_default_en_",
+    "LinkedInExchange": "LinkedInExchange_default_en_",
+    "FacebookExchange": "FacebookExchange_default_en_",
+    "GoogleExchange": "GoogleExchange_default_en_",
+    "MicrosoftAccountExchange": "MicrosoftAccountExchange_default_en_"
+  },
+  "sa_fields": {
+    "logonIdentifier": [
+      "logonIdentifier_default_en_",
+      "logonIdentifier_default_en_UHT"
+    ],
+    "password": [
+      "password_default_en_",
+      "logonIdentifier_default_en_UHT"
+    ],
+    "UserId": [
+      "UserId_default_en_",
+      "UserId_default_en_UHT"
+    ],
+    "newPassword": [
+      "newPassword_default_en_",
+      "newPassword_default_en_UHT"
+    ],
+    "reenterPassword": [
+      "reenterPassword_default_en_",
+      "reenterPassword_default_en_UHT"
+    ],
+    "email": [
+      "email_default_en_",
+      "email_default_en_UHT"
+    ],
+    "surname": [
+      "surname_default_en_",
+      "surname_default_en_UHT"
+    ],
+    "streetAddress": [
+      "streetAddress_default_en_",
+      "streetAddress_default_en_UHT"
+    ],
+    "state": [
+      "state_default_en_",
+      "state_default_en_UHT"
+    ],
+    "postalCode": [
+      "postalCode_default_en_",
+      "postalCode_default_en_UHT"
+    ],
+    "jobTitle": [
+      "jobTitle_default_en_",
+      "jobTitle_default_en_UHT"
+    ],
+    "givenName": [
+      "givenName_default_en_",
+      "givenName_default_en_UHT"
+    ],
+    "extension_ExtensionAttribute": [
+      "extension_ExtensionAttribute_default_en_",
+      "extension_ExtensionAttribute_default_en_UHT"
+    ],
+    "displayName": [
+      "displayName_default_en_",
+      "displayName_default_en_UHT"
+    ],
+    "country": [
+      "country_default_en_",
+      "country_default_en_UHT"
+    ],
+    "city": [
+      "city_default_en_",
+      "city_default_en_UHT"
+    ]
+  }
+}

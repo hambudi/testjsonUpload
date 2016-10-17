@@ -1,0 +1,27 @@
+﻿{
+  "language": {
+    "divider_title": "divider_title_default_EN-US"
+  },
+  "cp": {
+    "LinkedInExchange": "LinkedInExchange_default_EN-US",
+    "FacebookExchange": "FacebookExchange_default_EN-US"
+  },
+  "sa_fields": {
+    "extension_ExtensionAttribute": [
+      "extension_ExtensionAttribute_default_EN-US_",
+      "extension_ExtensionAttribute_default_EN-US_UHT"
+    ],
+    "displayName": [
+      "displayName_default",
+      "displayName_defaultUHT"
+    ],
+    "country": [
+      "country_default",
+      "country_defaultUHT"
+    ],
+    "city": [
+      "city_default",
+      "city_defaultUHT"
+    ]
+  }
+}
