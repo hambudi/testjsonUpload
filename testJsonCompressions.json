@@ -1,0 +1,406 @@
+{  
+   "LocalizedStrings":[  
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"UserId",
+         "StringId":"DisplayName",
+         "Value":"اسم المستخدم"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"UserId",
+         "StringId":"UserHelpText",
+         "Value":"اسم المستخدم المطلوب للتسجيل "
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"UserId",
+         "StringId":"PatternHelpText",
+         "Value":"اسم المستخدم الذي أدخلته غير صحيح. يجب أن يبدأ بحرف أو اسم، ويمكن أن يحتوي على حروف وأرقام والرمزين التاليين: _ -"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"password",
+         "StringId":"DisplayName",
+         "Value":"كلمة المرور"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"password",
+         "StringId":"UserHelpText",
+         "Value":"أدخل كلمة المرور التي ترغب أن تستخدمها عند تسجيل الدخول."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"password",
+         "StringId":"PatternHelpText",
+         "Value":"8-16 حرفًا تحتوي على 3 من 4 مما يلي: حروف صغيرة، وحروف كبيرة، والأرقام (0-9) وواحد أو أكثر من الرموز التالية: @ # $ % ^ & * - _ + = . [ ] { } | \\ : ' , ; ? / ` ~ \" ( )"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"newPassword",
+         "StringId":"DisplayName",
+         "Value":"كلمة مرور جديدة"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"newPassword",
+         "StringId":"UserHelpText",
+         "Value":"إدخال كلمة مرور جديدة"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"newPassword",
+         "StringId":"PatternHelpText",
+         "Value":"8-16 حرفًا تحتوي على 3 من 4 مما يلي: حروف صغيرة، وحروف كبيرة، والأرقام (0-9) وواحد أو أكثر من الرموز التالية: @ # $ % ^ & * - _ + = . [ ] { } | \\ : ' , ; ? / ` ~ \" ( );."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"reenterPassword",
+         "StringId":"DisplayName",
+         "Value":"تأكيد كلمة المرور الجديدة"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"reenterPassword",
+         "StringId":"UserHelpText",
+         "Value":"تأكيد كلمة المرور الجديدة"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"displayName",
+         "StringId":"DisplayName",
+         "Value":"عرض الاسم"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"displayName",
+         "StringId":"UserHelpText",
+         "Value":"اسمك الذي سيعرض."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"strongAuthenticationPhoneNumber",
+         "StringId":"DisplayName",
+         "Value":"رقم الهاتف"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"strongAuthenticationPhoneNumber",
+         "StringId":"UserHelpText",
+         "Value":"رقم الهاتف الذي يُستخدم للمصادقة متعددة العوامل."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"email",
+         "StringId":"DisplayName",
+         "Value":"عنوان البريد الإلكتروني"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"email",
+         "StringId":"UserHelpText",
+         "Value":"عنوان البريد الإلكتروني الذي يمكن أن يُستخدم للتواصل معك."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"email",
+         "StringId":"PatternHelpText",
+         "Value":"يرجى إدخال عنوان بريد إلكتروني صحيح."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"givenName",
+         "StringId":"DisplayName",
+         "Value":"الاسم"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"givenName",
+         "StringId":"UserHelpText",
+         "Value":"اسمك (اسمك الأول)."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"surname",
+         "StringId":"DisplayName",
+         "Value":"اللقب"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"surname",
+         "StringId":"UserHelpText",
+         "Value":"لقبك (أو اسم عائلتك)."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"jobTitle",
+         "StringId":"DisplayName",
+         "Value":"المسمى الوظيفي"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"jobTitle",
+         "StringId":"UserHelpText",
+         "Value":"مسمى وظيفتك."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"streetAddress",
+         "StringId":"DisplayName",
+         "Value":"اسم الشارع"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"streetAddress",
+         "StringId":"UserHelpText",
+         "Value":"اسم الشارع الذي تقيم فيه."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"city",
+         "StringId":"DisplayName",
+         "Value":"المدينة"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"city",
+         "StringId":"UserHelpText",
+         "Value":"المدينة التي تقيم فيها."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"postalCode",
+         "StringId":"DisplayName",
+         "Value":"الكود البريدي"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"postalCode",
+         "StringId":"UserHelpText",
+         "Value":"الكود البريدي لعنوانك."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"state",
+         "StringId":"DisplayName",
+         "Value":"الولاية/المقاطعة"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"state",
+         "StringId":"UserHelpText",
+         "Value":"اسم الولاية أو المقاطعة التي تقيم فيها."
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"country",
+         "StringId":"DisplayName",
+         "Value":"البلد/المنطقة"
+      },
+      {  
+         "ElementType":"ClaimType",
+         "ElementId":"country",
+         "StringId":"UserHelpText",
+         "Value":"البلد/المنطقة التي تقيم فيها."
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"MSA-OIDC",
+         "StringId":"DisplayName",
+         "Value":"Microsoft"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"Facebook-OAUTH",
+         "StringId":"DisplayName",
+         "Value":"Facebook"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"Google-OAUTH",
+         "StringId":"DisplayName",
+         "Value":"Google"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"LocalAccountSignInWithEvoStsUsingLogonName",
+         "StringId":"DisplayName",
+         "Value":"تسجيل الدخول بالحساب المحلي"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"LocalAccountSignInWithEvoStsUsingLogonEmail",
+         "StringId":"DisplayName",
+         "Value":"تسجيل الدخول بالحساب المحلي"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"LocalAccountSignInWithEvoSts",
+         "StringId":"DisplayName",
+         "Value":"تسجيل الدخول بالحساب المحلي"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"eSTS-NonInteractive",
+         "StringId":"UserMessageIfClaimsPrincipalDoesNotExist",
+         "Value":"لا نستطيع على ما يبدو أن نجد حسابك"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"eSTS-NonInteractive",
+         "StringId":"UserMessageIfInvalidPassword",
+         "Value":"كلمة المرور غير صحيحة"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"eSTS-NonInteractive",
+         "StringId":"UserMessageIfOldPasswordUsed",
+         "Value":"يبدو أنك تستخدم كلمة مرور قديمة"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"Amazon-OAUTH",
+         "StringId":"DisplayName",
+         "Value":"Amazon"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"LinkedIn-OAUTH",
+         "StringId":"DisplayName",
+         "Value":"LinkedIn"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"eSTS-Common",
+         "StringId":"DisplayName",
+         "Value":"تسجيل الدخول بالحساب المحلي"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"PhoneFactor-Verify",
+         "StringId":"DisplayName",
+         "Value":"PhoneFactor"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"PhoneFactor-Input",
+         "StringId":"DisplayName",
+         "Value":"PhoneFactor"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"PhoneFactor-Common",
+         "StringId":"DisplayName",
+         "Value":"PhoneFactor"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"SelfAsserted-Input",
+         "StringId":"DisplayName",
+         "Value":"التأكيد الشخصي"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"SelfAsserted-Social",
+         "StringId":"DisplayName",
+         "Value":"التسجيل بمعرف المستخدم"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"SelfAsserted-ProfileUpdate",
+         "StringId":"DisplayName",
+         "Value":"التسجيل بمعرف المستخدم"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"SelfAsserted-LogonIdentifierDiscovery",
+         "StringId":"DisplayName",
+         "Value":"اكتشاف معرّف تسجيل الدخول"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"SelfAsserted-LocalAccountSignin-Common",
+         "StringId":"DisplayName",
+         "Value":"تسجيل الدخول بالحساب المحلي"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"SelfAsserted-LocalAccount-Session",
+         "StringId":"DisplayName",
+         "Value":"تسجيل الدخول بالحساب المحلي"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"LocalAccountContentOverrides",
+         "StringId":"DisplayName",
+         "Value":"تجاوزات محتوى الحساب المحلي"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"LocalAccountSignUpWithLogonName",
+         "StringId":"DisplayName",
+         "Value":"التسجيل بمعرف المستخدم"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"LocalAccountSignUpWithLogonEmail",
+         "StringId":"DisplayName",
+         "Value":"تسجيل الدخول بالبريد الإلكتروني"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"LocalAccountPasswordChangeWithLogonEmail",
+         "StringId":"DisplayName",
+         "Value":"تغيير كلمة المرور (اسم المستخدم)"
+      },
+      {  
+         "ElementType":"ContentDefinition",
+         "ElementId":"api.localaccountsignup",
+         "StringId":"button_continue",
+         "Value":"إنشاء"
+      },
+      {  
+         "ElementType":"ContentDefinition",
+         "ElementId":"api.localaccountsignup1.1",
+         "StringId":"button_continue",
+         "Value":"إنشاء"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"AAD-UserWriteUsingAlternativeSecurityId",
+         "StringId":"UserMessageIfClaimsPrincipalAlreadyExists",
+         "Value":"أنت مسجل بالفعل؛ يرجى الضغط على زر تسجيل الدخول."
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"AAD-UserReadUsingAlternativeSecurityId",
+         "StringId":"UserMessageIfClaimsPrincipalDoesNotExist",
+         "Value":"لا يوجد مستخدم؛ يُرجى التسجيل قبل تسجيل الدخول"
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"AAD-UserReadUsingEmailAddress",
+         "StringId":"UserMessageIfClaimsPrincipalDoesNotExist",
+         "Value":"تعذر إيجاد حساب للبريد الإلكتروني المقدم."
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"AAD-UserWriteUsingLogonName",
+         "StringId":"UserMessageIfClaimsPrincipalAlreadyExists",
+         "Value":"يوجد مستخدم بالمعرّف المحدد بالفعل. يُرجى اختيار معرف آخر."
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"AAD-UserWriteUsingLogonEmail",
+         "StringId":"UserMessageIfClaimsPrincipalAlreadyExists",
+         "Value":"يوجد مستخدم بالمعرّف المحدد بالفعل. يُرجى اختيار معرف آخر."
+      },
+      {  
+         "ElementType":"TechnicalProfile",
+         "ElementId":"LocalAccountDiscoveryUsingUserNameAndValidateStrongAuthenticationEmailAddress",
+         "StringId":"UserMessageIfClaimsTransformationStringsAreNotEqual",
+         "Value":"تعذر إيجاد حساب بهذا الاسم."
+      }
+   ]
+}
