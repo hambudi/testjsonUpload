@@ -1,0 +1,406 @@
+{  
+   "LocalizedStrings":[  
+      {  
+         "ClaimType",
+         "UserId",
+         "DisplayName",
+         "اسم المستخدم"
+      ],
+      [  
+         "ClaimType",
+         "UserId",
+         "UserHelpText",
+         "اسم المستخدم المطلوب للتسجيل "
+      ],
+      [  
+         "ClaimType",
+         "UserId",
+         "PatternHelpText",
+         "اسم المستخدم الذي أدخلته غير صحيح. يجب أن يبدأ بحرف أو اسم، ويمكن أن يحتوي على حروف وأرقام والرمزين التاليين: _ -"
+      ],
+      [  
+         "ClaimType",
+         "password",
+         "DisplayName",
+         "كلمة المرور"
+      ],
+      [  
+         "ClaimType",
+         "password",
+         "UserHelpText",
+         "أدخل كلمة المرور التي ترغب أن تستخدمها عند تسجيل الدخول."
+      ],
+      [  
+         "ClaimType",
+         "password",
+         "PatternHelpText",
+         "8-16 حرفًا تحتوي على 3 من 4 مما يلي: حروف صغيرة، وحروف كبيرة، والأرقام (0-9) وواحد أو أكثر من الرموز التالية: @ # $ % ^ & * - _ + = . [ ] { } | \\ : ' , ; ? / ` ~ \" ( )"
+      ],
+      [  
+         "ClaimType",
+         "newPassword",
+         "DisplayName",
+         "كلمة مرور جديدة"
+      ],
+      [  
+         "ClaimType",
+         "newPassword",
+         "UserHelpText",
+         "إدخال كلمة مرور جديدة"
+      ],
+      [  
+         "ClaimType",
+         "newPassword",
+         "PatternHelpText",
+         "8-16 حرفًا تحتوي على 3 من 4 مما يلي: حروف صغيرة، وحروف كبيرة، والأرقام (0-9) وواحد أو أكثر من الرموز التالية: @ # $ % ^ & * - _ + = . [ ] { } | \\ : ' , ; ? / ` ~ \" ( );."
+      ],
+      [  
+         "ClaimType",
+         "reenterPassword",
+         "DisplayName",
+         "تأكيد كلمة المرور الجديدة"
+      ],
+      [  
+         "ClaimType",
+         "reenterPassword",
+         "UserHelpText",
+         "تأكيد كلمة المرور الجديدة"
+      ],
+      [  
+         "ClaimType",
+         "displayName",
+         "DisplayName",
+         "عرض الاسم"
+      ],
+      [  
+         "ClaimType",
+         "displayName",
+         "UserHelpText",
+         "اسمك الذي سيعرض."
+      ],
+      [  
+         "ClaimType",
+         "strongAuthenticationPhoneNumber",
+         "DisplayName",
+         "رقم الهاتف"
+      ],
+      [  
+         "ClaimType",
+         "strongAuthenticationPhoneNumber",
+         "UserHelpText",
+         "رقم الهاتف الذي يُستخدم للمصادقة متعددة العوامل."
+      ],
+      [  
+         "ClaimType",
+         "email",
+         "DisplayName",
+         "عنوان البريد الإلكتروني"
+      ],
+      [  
+         "ClaimType",
+         "email",
+         "UserHelpText",
+         "عنوان البريد الإلكتروني الذي يمكن أن يُستخدم للتواصل معك."
+      ],
+      [  
+         "ClaimType",
+         "email",
+         "PatternHelpText",
+         "يرجى إدخال عنوان بريد إلكتروني صحيح."
+      ],
+      [  
+         "ClaimType",
+         "givenName",
+         "DisplayName",
+         "الاسم"
+      ],
+      [  
+         "ClaimType",
+         "givenName",
+         "UserHelpText",
+         "اسمك (اسمك الأول)."
+      ],
+      [  
+         "ClaimType",
+         "surname",
+         "DisplayName",
+         "اللقب"
+      ],
+      [  
+         "ClaimType",
+         "surname",
+         "UserHelpText",
+         "لقبك (أو اسم عائلتك)."
+      ],
+      [  
+         "ClaimType",
+         "jobTitle",
+         "DisplayName",
+         "المسمى الوظيفي"
+      ],
+      [  
+         "ClaimType",
+         "jobTitle",
+         "UserHelpText",
+         "مسمى وظيفتك."
+      ],
+      [  
+         "ClaimType",
+         "streetAddress",
+         "DisplayName",
+         "اسم الشارع"
+      ],
+      [  
+         "ClaimType",
+         "streetAddress",
+         "UserHelpText",
+         "اسم الشارع الذي تقيم فيه."
+      ],
+      [  
+         "ClaimType",
+         "city",
+         "DisplayName",
+         "المدينة"
+      ],
+      [  
+         "ClaimType",
+         "city",
+         "UserHelpText",
+         "المدينة التي تقيم فيها."
+      ],
+      [  
+         "ClaimType",
+         "postalCode",
+         "DisplayName",
+         "الكود البريدي"
+      ],
+      [  
+         "ClaimType",
+         "postalCode",
+         "UserHelpText",
+         "الكود البريدي لعنوانك."
+      ],
+      [  
+         "ClaimType",
+         "state",
+         "DisplayName",
+         "الولاية/المقاطعة"
+      ],
+      [  
+         "ClaimType",
+         "state",
+         "UserHelpText",
+         "اسم الولاية أو المقاطعة التي تقيم فيها."
+      ],
+      [  
+         "ClaimType",
+         "country",
+         "DisplayName",
+         "البلد/المنطقة"
+      ],
+      [  
+         "ClaimType",
+         "country",
+         "UserHelpText",
+         "البلد/المنطقة التي تقيم فيها."
+      ],
+      [  
+         "TechnicalProfile",
+         "MSA-OIDC",
+         "DisplayName",
+         "Microsoft"
+      ],
+      [  
+         "TechnicalProfile",
+         "Facebook-OAUTH",
+         "DisplayName",
+         "Facebook"
+      ],
+      [  
+         "TechnicalProfile",
+         "Google-OAUTH",
+         "DisplayName",
+         "Google"
+      ],
+      [  
+         "TechnicalProfile",
+         "LocalAccountSignInWithEvoStsUsingLogonName",
+         "DisplayName",
+         "تسجيل الدخول بالحساب المحلي"
+      ],
+      [  
+         "TechnicalProfile",
+         "LocalAccountSignInWithEvoStsUsingLogonEmail",
+         "DisplayName",
+         "تسجيل الدخول بالحساب المحلي"
+      ],
+      [  
+         "TechnicalProfile",
+         "LocalAccountSignInWithEvoSts",
+         "DisplayName",
+         "تسجيل الدخول بالحساب المحلي"
+      ],
+      [  
+         "TechnicalProfile",
+         "eSTS-NonInteractive",
+         "UserMessageIfClaimsPrincipalDoesNotExist",
+         "لا نستطيع على ما يبدو أن نجد حسابك"
+      ],
+      [  
+         "TechnicalProfile",
+         "eSTS-NonInteractive",
+         "UserMessageIfInvalidPassword",
+         "كلمة المرور غير صحيحة"
+      ],
+      [  
+         "TechnicalProfile",
+         "eSTS-NonInteractive",
+         "UserMessageIfOldPasswordUsed",
+         "يبدو أنك تستخدم كلمة مرور قديمة"
+      ],
+      [  
+         "TechnicalProfile",
+         "Amazon-OAUTH",
+         "DisplayName",
+         "Amazon"
+      ],
+      [  
+         "TechnicalProfile",
+         "LinkedIn-OAUTH",
+         "DisplayName",
+         "LinkedIn"
+      ],
+      [  
+         "TechnicalProfile",
+         "eSTS-Common",
+         "DisplayName",
+         "تسجيل الدخول بالحساب المحلي"
+      ],
+      [  
+         "TechnicalProfile",
+         "PhoneFactor-Verify",
+         "DisplayName",
+         "PhoneFactor"
+      ],
+      [  
+         "TechnicalProfile",
+         "PhoneFactor-Input",
+         "DisplayName",
+         "PhoneFactor"
+      ],
+      [  
+         "TechnicalProfile",
+         "PhoneFactor-Common",
+         "DisplayName",
+         "PhoneFactor"
+      ],
+      [  
+         "TechnicalProfile",
+         "SelfAsserted-Input",
+         "DisplayName",
+         "التأكيد الشخصي"
+      ],
+      [  
+         "TechnicalProfile",
+         "SelfAsserted-Social",
+         "DisplayName",
+         "التسجيل بمعرف المستخدم"
+      ],
+      [  
+         "TechnicalProfile",
+         "SelfAsserted-ProfileUpdate",
+         "DisplayName",
+         "التسجيل بمعرف المستخدم"
+      ],
+      [  
+         "TechnicalProfile",
+         "SelfAsserted-LogonIdentifierDiscovery",
+         "DisplayName",
+         "اكتشاف معرّف تسجيل الدخول"
+      ],
+      [  
+         "TechnicalProfile",
+         "SelfAsserted-LocalAccountSignin-Common",
+         "DisplayName",
+         "تسجيل الدخول بالحساب المحلي"
+      ],
+      [  
+         "TechnicalProfile",
+         "SelfAsserted-LocalAccount-Session",
+         "DisplayName",
+         "تسجيل الدخول بالحساب المحلي"
+      ],
+      [  
+         "TechnicalProfile",
+         "LocalAccountContentOverrides",
+         "DisplayName",
+         "تجاوزات محتوى الحساب المحلي"
+      ],
+      [  
+         "TechnicalProfile",
+         "LocalAccountSignUpWithLogonName",
+         "DisplayName",
+         "التسجيل بمعرف المستخدم"
+      ],
+      [  
+         "TechnicalProfile",
+         "LocalAccountSignUpWithLogonEmail",
+         "DisplayName",
+         "تسجيل الدخول بالبريد الإلكتروني"
+      ],
+      [  
+         "TechnicalProfile",
+         "LocalAccountPasswordChangeWithLogonEmail",
+         "DisplayName",
+         "تغيير كلمة المرور (اسم المستخدم)"
+      ],
+      [  
+         "ContentDefinition",
+         "api.localaccountsignup",
+         "button_continue",
+         "إنشاء"
+      ],
+      [  
+         "ContentDefinition",
+         "api.localaccountsignup1.1",
+         "button_continue",
+         "إنشاء"
+      ],
+      [  
+         "TechnicalProfile",
+         "AAD-UserWriteUsingAlternativeSecurityId",
+         "UserMessageIfClaimsPrincipalAlreadyExists",
+         "أنت مسجل بالفعل؛ يرجى الضغط على زر تسجيل الدخول."
+      ],
+      [  
+         "TechnicalProfile",
+         "AAD-UserReadUsingAlternativeSecurityId",
+         "UserMessageIfClaimsPrincipalDoesNotExist",
+         "لا يوجد مستخدم؛ يُرجى التسجيل قبل تسجيل الدخول"
+      ],
+      [  
+         "TechnicalProfile",
+         "AAD-UserReadUsingEmailAddress",
+         "UserMessageIfClaimsPrincipalDoesNotExist",
+         "تعذر إيجاد حساب للبريد الإلكتروني المقدم."
+      ],
+      [  
+         "TechnicalProfile",
+         "AAD-UserWriteUsingLogonName",
+         "UserMessageIfClaimsPrincipalAlreadyExists",
+         "يوجد مستخدم بالمعرّف المحدد بالفعل. يُرجى اختيار معرف آخر."
+      ],
+      [  
+         "TechnicalProfile",
+         "AAD-UserWriteUsingLogonEmail",
+         "UserMessageIfClaimsPrincipalAlreadyExists",
+         "يوجد مستخدم بالمعرّف المحدد بالفعل. يُرجى اختيار معرف آخر."
+      ],
+      [  
+         "TechnicalProfile",
+         "LocalAccountDiscoveryUsingUserNameAndValidateStrongAuthenticationEmailAddress",
+         "UserMessageIfClaimsTransformationStringsAreNotEqual",
+         "تعذر إيجاد حساب بهذا الاسم."
+      ]
+   ]
+}
