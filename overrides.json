@@ -29,7 +29,7 @@
          "ElementId":null,
          "StringId":"MicrosoftAccountExchange",
          "Value":"Microsoft"
-      }
+      },
       {  
          "ElementType":"ErrorMessage",
          "ElementId":null,
